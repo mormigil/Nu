@@ -21,7 +21,6 @@ function Update () {
 	}
 	if(sixSphere.length>=7){
 		i--;
-		Debug.Log(sixSphere.length);
 		Destroy(sixSphere[0]);
 		sixSphere.splice(0, 1);
 	}
